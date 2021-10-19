@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.section-bg {
+    background-image: url('./image/image 0.png');
+    background-position: center;
+    width: 100%;
+    height: 1500px;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    background-color: rgba(51, 51, 51, 0.85);  
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.header-container ul {
+    display: flex;
+}
+
+.header-container ul li {
+    margin-right: 63px;
+}
+
+.header-container ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer; 
+}
+
+
+.header-container ul li:hover {
+    border-bottom: 2px solid #D1A954;
+} 
+
+.section-home {
+    padding-top: 350px;
+    height: 1405px;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.85);
+}
+
+.section-home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container-box-1 {
+    width: 540px;
+    margin-right: 125px;
+}
+
+.home-container-box-1 h1 {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.home-container-box-1 p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 50px;
+    line-height: 21px;
+}
+
+.home-container-box-1 button {
+    background-color: #D1A954;
+    width: 160px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.box-2-button-container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.box-2-button-container button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.box-2-button-left img {
+    margin-right: 15px;
+}
+
+.box-2-button-right img {
+    margin-left: 15px;
+} 
+
+.section-contact-info {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 1503px;
+    background-color: rgba(51, 51, 51, 0.75);
+    z-index: 10;
+}
+
+.section-contact-info-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300%;
+}
+
+.section-contact-info-container p {
+    transform: rotate(-90deg);
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
+
+.section-contact-info-container div {
+    margin-bottom: 40px;
+}
+
+.section-contact-info-container div>p {
+    margin-bottom: 100px;
+    width: 200px;
+}
+
+.section-burger-menu-of {
+    display: none;
+}
+
+.burger-button {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.section-theatre {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+}
+
+.section-theatre h1 {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.section-theatre h1 span {
+    color: rgba(209, 169, 84, 1);
+}
+
+.section-theatre-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.theatre-container-box-1 {
+    margin-right: 35px;
+    width: 300px;
+}
+
+.section-theatre-container h4 {
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.theatre-container-box-1 p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.theatre-container-box-2 {
+    width: 300px;
+}
+
+.theatre-container-box-2 img {
+    margin-bottom: 15px;
+}
+
+.theatre-container-box-2 span {
+    color: rgba(209, 169, 84, 1);
+}
+
+.theatre-container-box-2 .box-2-img-2 {
+    margin-top: 25px;
+}
+
+.section-our-production {
+    height: auto;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    padding-bottom: 100px;
+}
+
+.section-our-production h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.section-our-production h1 span {
+    color: rgba(209, 169, 84, 1);
+}
+
+.section-our-production-container-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.our-production-container-1-item-1 {
+    margin-right: 0;
+}
+
+.section-our-production-container-1 h4 {
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 24px;
+}
+
+.section-our-production-container-1 .date-prodaction {
+    position: relative;
+    bottom: 300px;
+    left: -140px;
+    transform: rotate(-90deg);
+}
+.section-our-production-container-1 img {
+    width: 80%;
+    height: 90%;
+}
+
+.section-our-production-container-2 {
+    background-image: url('./image/image 17.png');
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.our-production-container-2-container-year {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.our-production-container-2-container-year p {
+    font-size: 72px;
+    font-weight: bold; 
+    color: rgba(209, 169, 84, 1);
+}
+
+.our-production-container-2-container-rate {
+    width: 30%;
+}
+
+.our-production-container-2-container-rate p {
+    font-size: 36px;
+}
+
+.our-production-container-2-container-rate-container-star {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.our-production-container-2-container-rate-container-star img {
+    width: 100%;
+}
+
+.section-partners {
+    height: auto;
+    background-color: rgba(51, 51, 51, 0.9);
+    padding-bottom: 100px;
+}
+
+.section-partners h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.section-partners h1 span {
+    color: rgba(209, 169, 84, 1);
+}
+
+.section-partners .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    padding-left: 50px;
+
+}
+
+.section-partners img {
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1120px) {
+    
+    .header-container {
+        flex-wrap: wrap;
+    }
+    
+    .header-container ul {
+        margin-bottom: 50px;
+    }
+
+    .section-home-container {
+        flex-wrap: wrap;
+    }
+
+    .home-container-box-1 {
+        margin-bottom: 70px;
+    }
+
+    .section-theatre-container {
+        flex-wrap: wrap;
+    }
+
+    .theatre-container-box-1 {
+        margin-bottom: 25px;
+    }
+
+    .theatre-container-box-2 {
+        margin-bottom: 25px;
+    }
+
+    .section-our-production-container-1 {
+        flex-wrap: wrap;
+    }
+
+
+    .our-production-container-1-container-year p {
+        font-size: 30px;
+    }
+
+    .our-production-container-1-container-rate p {
+        font-size: 16px;
+    }
+
+    .section-our-production-container-2 {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container .header-container-ul-close {
+        display: none;
+    }
+
+    .header-container ul {
+        margin-left: 50%;
+    }
+
+    .section-contact-info {
+        display: none;
+    }
+
+    .burger-button {
+        cursor: pointer;
+        position: absolute;
+        left: 39px;
+        top: 60px;
+        z-index: 10;
+    }
+
+   .section-burger-menu {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 1503px;
+    background-color: rgba(51, 51, 51, 1);
+    z-index: 10;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   .section-burger-menu .close {
+       position: relative;
+       top: 30px;
+       right: -100px;
+       cursor: pointer;
+   }
+
+   .section-burger-menu .section-burger-menu-ul-1 {
+       margin-top: 100px;
+   }
+
+   .section-burger-menu .section-burger-menu-ul-1 li {
+       margin-top: 35px;
+   } 
+
+   .section-burger-menu .section-burger-menu-ul-1 li a {
+       color: white;
+       font-size: 24px;
+       font-weight: bold;
+   } 
+
+   .section-burger-menu .section-burger-menu-ul-2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 200px;
+      margin-top: 90px;
+   }
+
+   .section-burger-menu .section-burger-menu-ul-2 li {
+       margin-bottom: 50px;
+   }
+
+   .section-burger-menu .section-burger-menu-ul-2 .first-li {
+        margin-right: 70px;
+   }
+
+   .section-burger-menu .section-burger-menu-ul-2 .third-li {
+        margin-right: 70px;
+    }
+}
