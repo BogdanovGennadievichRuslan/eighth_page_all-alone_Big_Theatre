@@ -301,7 +301,7 @@ button {
 
 .our-production-container-2-container-rate-container-star {
     display: flex;
-    width: 200px;
+    width: 150px;
     justify-content: space-between;
 }
 
@@ -473,5 +473,9 @@ button {
 
    .section-burger-menu .section-burger-menu-ul-2 .third-li {
         margin-right: 70px;
+    }
+
+    .section-our-production-container-2 {
+        flex-direction: column;   
     }
 }
